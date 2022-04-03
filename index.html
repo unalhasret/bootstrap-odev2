@@ -15,33 +15,36 @@
     <!-- sticky top nav bar start -->
     <div class="bg-white fixed-top border-bottom">
         <div class="container">
-            <div class="navbar">
-                <!-- logo start -->
-                <a href="#"><img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.    png"alt="Logo"></a>
-                <!-- logo end -->
+            <div class="navbar row justify-content-center">
+                <div class="col-3">
+                    <!-- logo start -->
+                    <a class="me-5 pe-5" href="#"><img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.    png"alt="Logo"></a>
+                    <!-- logo end -->
+                </div>
 
-
-                <!-- search start -->
-                <form class="container-fluid col-3">
-                    <div class="input-group">
-                        <span class="input-group-text bg-white"><img width="24px" src="img/search.png" alt="search"></span>
-                        <input type="text" class="form-control border-start-0" placeholder="Ara"aria-label="Username"aria-describedby="basic-addon1">
-                    </div>
-                </form>
-                <!-- search end -->
-
-                <!-- icons start -->
-                <div>
+                <div class="col-3">
+                    <!-- search start -->
+                    <form class="col-11">
+                        <div class="input-group">
+                            <span  style="height: 36px;" class="input-group-text bg-light"><img width="24px" src="img/search.png" alt="search"></span>
+                            <input style="height: 36px;" type="text" class="form-control border-start-0 bg-light" placeholder="Ara"aria-label="Username"aria-describedby="basic-addon1">
+                        </div>
+                    </form>
+                    <!-- search end -->
+                </div>
+                <div class="col-3 ps-5">
+                    <!-- icons start -->
                     <ul class="list-unstyled list-group list-group-horizontal">
                         <li class="p-2"><a href=""><img src="img/home.png" alt=""></a></li>
                         <li class="p-2"><a href=""><img width="24px" src="img/dm.png" alt=""><a></li>
                         <li class="p-2"><a href=""><img width="24px" src="img/post.png" alt=""><a></li>
                         <li class="p-2"><a href=""><img width="24px" src="img/explore.png"alt=""></a></li>
                         <li class="p-2"><a href=""><img src="img/heart.png" alt=""></a></li>
-                        <li class="p-2"><a href=""><img width="24px" class="rounded-circle"src="img/me.jpg" alt=""></a></li>
+                        <li class="p-2 pe-0"><a href=""><img width="24px" class="rounded-circle"src="img/me.jpg" alt=""></a></li>
                     </ul>
-                 </div>
                 <!-- icons end -->
+                </div>
+                
             </div>
         </div>
     </div>
@@ -54,16 +57,60 @@
                     <!-- story start -->
                     <div class="card mb-4">
                         <div class="card-body">
-                            <!-- TODO -->
-                            story kısmı
+                            <ul class="list-group list-group-horizontal text-center overflow-hidden">
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/23/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/24/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/25/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/26/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/27/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/28/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/29/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/30/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
+                                <li class="list-unstyled px-2">
+                                    <img class="rounded-circle" src="https://picsum.photos/id/40/56" alt="">
+                                    <br>
+                                    <span class="small">Lorem</span>
+                                </li>
                         </div>
                     </div>
                     <!-- story end -->
     
                     <!-- content start -->
                     <div class="card mb-3">
-                        <div class="card-header">
-                            <ul class="list-unstyled list-group list-group-horizontal">
+                        <div class="card-header bg-white">
+                            <ul class="list-unstyled list-group list-group-horizontal py-1">
                                 <div class="col-1">
                                     <li class="pe-3"><a href=""><img width="24px" class="rounded-circle" src="img/me.jpg" alt=""></a></li>
                                 </div>
@@ -101,8 +148,8 @@
                           </div>
                       </div>
                     <div class="card mb-3">
-                        <div class="card-header">
-                            <ul class="list-unstyled list-group list-group-horizontal">
+                        <div class="card-header bg-white">
+                            <ul class="list-unstyled list-group list-group-horizontal py-1">
                                 <div class="col-1">
                                     <li class="pe-3"><a href=""><img width="24px" class="rounded-circle" src="img/me.jpg" alt=""></a></li>
                                 </div>
@@ -140,8 +187,8 @@
                           </div>
                       </div>
                     <div class="card mb-3">
-                        <div class="card-header">
-                            <ul class="list-unstyled list-group list-group-horizontal">
+                        <div class="card-header bg-white">
+                            <ul class="list-unstyled list-group list-group-horizontal py-1">
                                 <div class="col-1">
                                     <li class="pe-3"><a href=""><img width="24px" class="rounded-circle" src="img/me.jpg" alt=""></a></li>
                                 </div>
@@ -178,7 +225,6 @@
                             </div>
                           </div>
                       </div>
-    
                       <!-- content end -->
                 </div>
                 <div class="col-3">
@@ -193,7 +239,7 @@
                                 <span>Hasret Ünal</span>
                             </div>
                             <div class="col-4">
-                                <a class="small text-decoration-none" href="">Geçiş Yap</a>
+                                <a class="small text-decoration-none float-end" href="">Geçiş Yap</a>
                             </div>
                         </div>
                         <div class="card-body">
